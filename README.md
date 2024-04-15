@@ -1,2 +1,3 @@
-# blog.crystall1ne.dev
-the blog
+# New login detected.
+
+Go ahead, take a look around. 
