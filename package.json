@@ -1,0 +1,35 @@
+{
+    "name": "Eva's blog",
+    "version": "0.0.1",
+    "description": "Time to hear Eva ramble.",
+    "main": "",
+    "author": {
+        "name": "Eva Isabella Luna",
+        "url": "https://crystall1ne.dev"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/crystall1nedev/blog.git"
+    },
+    "scripts": {
+        "dev": "vuepress dev",
+        "build": "vuepress build"
+    },
+    "license": "CC-BY-NC-SA-4.0",
+    "devDependencies": {
+        "@vuepress/plugin-back-to-top": "^1.9.8",
+        "@vuepress/plugin-medium-zoom": "^1.9.8",
+        "markdown-it-multimd-table": "^4.2.0",
+        "vuepress": "^1.9.8",
+        "vuepress-plugin-flexsearch": "^0.2.0",
+        "vuepress-plugin-medium-zoom": "^1.1.9",
+        "vuepress-plugin-smooth-scroll": "^0.0.10",
+        "vuepress-theme-succinct": "^1.7.2"
+    },
+    "homepage": "https://blog.crystall1ne.dev/",
+    "dependencies": {
+        "@vuepress/cli": "^2.0.0-rc.2",
+        "vuepress-auto-sidebar": "^1.1.1",
+        "vuepress-plugin-auto-sidebar": "^2.3.2"
+    }
+}
