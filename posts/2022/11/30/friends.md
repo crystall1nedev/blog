@@ -21,7 +21,7 @@ Until, I didn't.
 
 I repurchased all of the content on my MacBook Pro, as well as preordering Lightfall. And by moving to my MacBook, I made it easier to connect with people online. Which inevitably lead to someone in my girlfriend's Discord server-
 
-![](../../../images/2022/11/11-30-scrub.png)
+![](../../../../images/2022/11/11-30-scrub.png)
 
 At this point, I already had two friends in my own Discord that were on and off about working together, usually due to time or them doing other things in the game at the time. I'd started using the Looking For Group function to get together with people, and that wasn't going particularly well since I was a newbie.
 

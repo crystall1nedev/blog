@@ -13,7 +13,7 @@ And now we have the aftermath. What came after this all happened.
 
 I immediately banned Gus, Shradinx, and Necromancer from my personal Discord server, and posted an announcement that I condemned their actions and would no longer be associated with them.
 
-![](../../../images/2023/05/05-15-xrcraft-my-announcement.png)
+![](../../../../images/2023/05/05-15-xrcraft-my-announcement.png)
 
 I was very pissed off, if you couldn't tell, **and I'll be discussing my personal reaction to each member in part 4 of these posts.**
 
@@ -25,7 +25,7 @@ Oh, XRCraft is dead. Yeah, it's not coming back. Ever. Both QCXR and the remaini
 
 QCXR is actually handling itself pretty well, given that ropes were being cut off a while ago already. This just put the last nail in the coffin and solidified how QCXR was no longer supporting the XRCraft team, and they were able to reaffirm that QuestCraft is designed around inclusivity and friendship.
 
-![](../../../images/2023/05/05-15-xrcraft-sd-announcement.png)
+![](../../../../images/2023/05/05-15-xrcraft-sd-announcement.png)
 
 ## BisectHosting
 

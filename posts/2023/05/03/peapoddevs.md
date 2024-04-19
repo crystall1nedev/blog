@@ -9,7 +9,7 @@ So a bunch of stuff happened, a TL;DR is that I've been getting closer with the 
 
 After a bunch of talking and thinking about random projects, we all started a new group called the PeaPodDevs.
 
-![](../../../images/2023/05/05-03-peapoddevs.png)
+![](../../../../images/2023/05/05-03-peapoddevs.png)
 
 Now we have an official space to tackle the random projects that we want to! And currently, we're working on a few big things - including MetalXR, taking OpenComposite and OpenXR to the Mac with Metal support!
 

@@ -14,7 +14,7 @@ At WWDC23, Apple introduced 4 new Macs! Let's dig in!
 
 Apple finally did it - they made the 15-inch MacBook Air! If I didn't have a 16-inch MacBook Pro (or if I didn't need the performance from a Pro/Max chip,) I would have definitely gotten a 15-inch Air - it's the perfect size, weight, and portability, and really just shows what crazy things Apple Silicon can do.
 
-![](../../../images/2023/06/06-09-wwdc23-mac-macbook-air-15.png)
+![](../../../../images/2023/06/06-09-wwdc23-mac-macbook-air-15.png)
 
 The easiest way to describe the 15-inch MacBook Air is to call it the "13.6-inch but big" - it comes in the same colors with the same ports and the same display technology and same speaker design and same blahhh. But there are some noteworthy changes granted to the Air because of its size:
 
@@ -34,7 +34,7 @@ There's really not much to say about the 15-inch MacBook Air, as we've already r
 
 Apple also announced updated Mac Studios with M2 Max and M2 Ultra - a nice refresh from last year's M1 Max and M1 Ultra.
 
-![](../../../images/2023/06/06-09-wwdc23-mac-mac-studio.png)
+![](../../../../images/2023/06/06-09-wwdc23-mac-mac-studio.png)
 
 - With M2 Max, the Mac Studio gets
     - 12-core CPU
@@ -58,7 +58,7 @@ While performance claims are yet to be proven, M2 Max and M2 Ultra seem like a l
 
 Yes, Apple finally did it. They brought Apple Silicon to the new Mac Pro with M2 Ultra.
 
-![](../../../images/2023/06/06-09-wwdc23-mac-mac-pro.png)
+![](../../../../images/2023/06/06-09-wwdc23-mac-mac-pro.png)
 
 The simplest way to put the new Mac Pro: Mac Studio with PCIe expansion. That's just what it is, no matter how you try to put it - it's a Mac Studio's specifications shoved into a chassis that allows expansion.
 
@@ -76,7 +76,7 @@ That last reason is a great segue into the issue of the new Mac Pro not supporti
 
 However, investigation reveals that this isn't just because Apple want you to upgrade to a more expensive computer. Stella [reported this on her blog a few days ago,](https://blog.thatstel.la/update/ios/2023/06/05/my-thoughts-on-wwdc-2023.html) but the limitations on Apple Silicon seem to be done out of software quality rather than hardware-based limitations:
 
-![](../../../images/2023/06/06-09-wwdc23-mac-pcie-issues.png)
+![](../../../../images/2023/06/06-09-wwdc23-mac-pcie-issues.png)
 
 This makes sense, because Apple always seems to push for the tight integration of hardware and software to make their experiences great. Given that the solution is deemed unshippable by the company and an Asahi Linux developer too, it's safe to say that it's currently better to not be allowing dedicated cards to be connected. Otherwise you might lose all of your work.
 

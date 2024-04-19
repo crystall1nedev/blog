@@ -12,7 +12,7 @@ This post is coming for good reasons, and not only related to MetalXR's README a
 
 So, just to make it clear. These are the Mac GPUs that support each version of Apple's Metal API.
 
-![My 2021 MacBook Pro 16" showing off its beauty in System Profiler.](../../../images/2023/05/05-03-system-profiler.png)
+![My 2021 MacBook Pro 16" showing off its beauty in System Profiler.](../../../../images/2023/05/05-03-system-profiler.png)
 
 **Metal 1** - Introduced in OS X 10.11, it supports:
 

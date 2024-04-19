@@ -3,7 +3,7 @@ const {
 } = require('../package')
 
 module.exports = {
-    title: 'Eva\'s blog',
+    title: 'AI-COM/EVA',
     head: [
         ['meta', {
             name: 'theme-color',
@@ -58,16 +58,8 @@ module.exports = {
         editLinks: false,
         logo: '/homepage.png',
         nav: [{
-            text: 'Eva\'s sites',
-            items: [{
-                text: 'Home',
-                link: 'https://crystall1ne.dev/'
-            },
-            {
-                text: 'Bruh',
-                link: 'https://crystall1ne.dev/'
-            },
-            ]
+            text: 'Back to home base',
+            link: 'https://crystall1ne.dev/'
         },
         ],
         sidebar: [{
@@ -80,7 +72,7 @@ module.exports = {
                     collapsable: false,
                     sidebarDepth: 1,
                     children: [
-                        '/posts/2024/04/2024-04-',
+                        '/posts/2024/04/xx',
                     ],
                 },*/
                 {
@@ -88,7 +80,7 @@ module.exports = {
                     collapsable: false,
                     sidebarDepth: 1,
                     children: [
-                        '/posts/2024/03/2024-03-18-twvtb3j5ievpz2h0',
+                        '/posts/2024/03/18/twvtb3j5ievpz2h0',
                     ],
                 },
                 {
@@ -96,7 +88,7 @@ module.exports = {
                     collapsable: false,
                     sidebarDepth: 1,
                     children: [
-                        '/posts/2024/02/2024-02-09-rebranding-crystall1ne-dev',
+                        '/posts/2024/02/09/rebranding-crystall1ne-dev',
                     ],
                 },
                 {
@@ -104,7 +96,7 @@ module.exports = {
                     collapsable: false,
                     sidebarDepth: 1,
                     children: [
-                        '/posts/2024/01/2024-01-04-new-apps-and-old',
+                        '/posts/2024/01/04/new-apps-and-old',
                     ],
                 },   
             ]
@@ -119,7 +111,7 @@ module.exports = {
                     collapsable: true,
                     sidebarDepth: 1,
                     children: [
-                        '/posts/2023/11/2023-11-27-twvtb3j5ifnldmvu',
+                        '/posts/2023/11/27/twvtb3j5ifnldmvu',
                     ],
                 },
                 {
@@ -127,8 +119,8 @@ module.exports = {
                     collapsable: true,
                     sidebarDepth: 1,
                     children: [
-                        '/posts/2023/08/2023-08-08-the-safehouse',
-                        '/posts/2023/08/2023-08-08-not-so-distant-futures',
+                        '/posts/2023/08/08/the-safehouse',
+                        '/posts/2023/08/08/not-so-distant-futures',
                     ],
                 },
                 {
@@ -136,13 +128,13 @@ module.exports = {
                     collapsable: true,
                     sidebarDepth: 1,
                     children: [
-                        '/posts/2023/07/2023-07-27-twvtb3j5ifnpea',
-                        '/posts/2023/07/2023-07-11-twvtb3j5iezvdxi',
-                        '/posts/2023/07/2023-07-11-twvtb3j5iezpdmu',
-                        '/posts/2023/07/2023-07-09-twvtb3j5ifrocmvl',
-                        '/posts/2023/07/2023-07-09-twvtb3j5ifr3bw',
-                        '/posts/2023/07/2023-07-07-twvtb3j5idax',
-                        '/posts/2023/07/2023-07-04-my-airpods-max-died',
+                        '/posts/2023/07/27/twvtb3j5ifnpea',
+                        '/posts/2023/07/11/twvtb3j5iezvdxi',
+                        '/posts/2023/07/11/twvtb3j5iezpdmu',
+                        '/posts/2023/07/09/twvtb3j5ifrocmvl',
+                        '/posts/2023/07/09/twvtb3j5ifr3bw',
+                        '/posts/2023/07/07/twvtb3j5idax',
+                        '/posts/2023/07/04/my-airpods-max-died',
                     ],
                 },
                 {
@@ -150,13 +142,13 @@ module.exports = {
                     collapsable: true,
                     sidebarDepth: 1,
                     children: [
-                        '/posts/2023/06/2023-06-29-stream-plans',
-                        '/posts/2023/06/2023-06-16-bye-reddit',
-                        '/posts/2023/06/2023-06-09-wwdc23-macos',
-                        '/posts/2023/06/2023-06-09-wwdc23-mac',
-                        '/posts/2023/06/2023-06-09-wwdc23-ios',
-                        '/posts/2023/06/2023-06-09-apple-silicon',
-                        '/posts/2023/06/2023-06-03-lmfao',
+                        '/posts/2023/06/29/stream-plans',
+                        '/posts/2023/06/16/bye-reddit',
+                        '/posts/2023/06/09/wwdc23-macos',
+                        '/posts/2023/06/09/wwdc23-mac',
+                        '/posts/2023/06/09/wwdc23-ios',
+                        '/posts/2023/06/09/apple-silicon',
+                        '/posts/2023/06/03/lmfao',
                     ],
                 },
                 {
@@ -164,19 +156,19 @@ module.exports = {
                     collapsable: true,
                     sidebarDepth: 1,
                     children: [
-                        '/posts/2023/05/2023-05-31-over-three-years',
-                        '/posts/2023/05/2023-05-18-to-stellas-parents',
-                        '/posts/2023/05/2023-05-17-changing-names',
-                        '/posts/2023/05/2023-05-16-making-amends',
-                        '/posts/2023/05/2023-05-16-gay',
-                        '/posts/2023/05/2023-05-15-downfall-pt-4',
-                        '/posts/2023/05/2023-05-15-downfall-pt-3',
-                        '/posts/2023/05/2023-05-15-downfall-pt-2',
-                        '/posts/2023/05/2023-05-15-downfall',
-                        '/posts/2023/05/2023-05-05-system-reset',
-                        '/posts/2023/05/2023-05-03-peapoddevs',
-                        '/posts/2023/05/2023-05-03-metal-1-2-or-3',
-                        '/posts/2023/05/2023-05-02-undetermined-future',
+                        '/posts/2023/05/31/over-three-years',
+                        '/posts/2023/05/18/to-stellas-parents',
+                        '/posts/2023/05/17/changing-names',
+                        '/posts/2023/05/16/making-amends',
+                        '/posts/2023/05/16/gay',
+                        '/posts/2023/05/15/downfall-pt-4',
+                        '/posts/2023/05/15/downfall-pt-3',
+                        '/posts/2023/05/15/downfall-pt-2',
+                        '/posts/2023/05/15/downfall',
+                        '/posts/2023/05/05/system-reset',
+                        '/posts/2023/05/03/peapoddevs',
+                        '/posts/2023/05/03/metal-1-2-or-3',
+                        '/posts/2023/05/02/undetermined-future',
                     ],
                 },
                 {
@@ -184,8 +176,8 @@ module.exports = {
                     collapsable: true,
                     sidebarDepth: 1,
                     children: [
-                        '/posts/2023/04/2023-04-27-license-keys',
-                        '/posts/2023/04/2023-04-26-self-confidence',
+                        '/posts/2023/04/27/license-keys',
+                        '/posts/2023/04/26/self-confidence',
                     ],
                 },
                 {
@@ -193,9 +185,9 @@ module.exports = {
                     collapsable: true,
                     sidebarDepth: 1,
                     children: [
-                        '/posts/2023/03/2023-03-17-objective-c',
-                        '/posts/2023/03/2023-03-09-hardware-failure',
-                        '/posts/2023/03/2023-03-03-to-mykola',
+                        '/posts/2023/03/17/objective-c',
+                        '/posts/2023/03/09/hardware-failure',
+                        '/posts/2023/03/03/to-mykola',
                     ],
                 },
                 {
@@ -203,9 +195,9 @@ module.exports = {
                     collapsable: true,
                     sidebarDepth: 1,
                     children: [
-                        '/posts/2023/02/2023-02-13-sideloading-and-jit',
-                        '/posts/2023/02/2023-02-13-macos-support-theory',
-                        '/posts/2023/02/2023-02-08-x619ap',
+                        '/posts/2023/02/13/sideloading-and-jit',
+                        '/posts/2023/02/13/macos-support-theory',
+                        '/posts/2023/02/08/x619ap',
                     ],
                 },
                 {
@@ -213,14 +205,14 @@ module.exports = {
                     collapsable: true,
                     sidebarDepth: 1,
                     children: [
-                        '/posts/2023/01/2023-01-31-rmdl',
-                        '/posts/2023/01/2023-01-30-ai-com-elli',
-                        '/posts/2023/01/2023-01-18-macbook-pro',
-                        '/posts/2023/01/2023-01-15-xrcraft',
-                        '/posts/2023/01/2023-01-15-a-few-thoughts',
-                        '/posts/2023/01/2023-01-12-stella',
-                        '/posts/2023/01/2023-01-12-psych-ward',
-                        '/posts/2023/01/2023-01-05-upgrading-to-2023',
+                        '/posts/2023/01/31/rmdl',
+                        '/posts/2023/01/30/ai-com-elli',
+                        '/posts/2023/01/18/macbook-pro',
+                        '/posts/2023/01/15/xrcraft',
+                        '/posts/2023/01/15/a-few-thoughts',
+                        '/posts/2023/01/12/stella',
+                        '/posts/2023/01/12/psych-ward',
+                        '/posts/2023/01/05/upgrading-to-2023',
                     ],
                 },
             ]
@@ -235,8 +227,8 @@ module.exports = {
                     collapsable: true,
                     sidebarDepth: 1,
                     children: [
-                        '/posts/2022/12/2022-12-14-patreon-changes',
-                        '/posts/2022/12/2022-12-13-system-support',
+                        '/posts/2022/12/14/patreon-changes',
+                        '/posts/2022/12/13/system-support',
                     ],
                 },
                 {
@@ -244,15 +236,15 @@ module.exports = {
                     collapsable: true,
                     sidebarDepth: 1,
                     children: [
-                        '/posts/2022/11/2022-11-30-future-plans',
-                        '/posts/2022/11/2022-11-30-friends',
-                        '/posts/2022/11/2022-11-29-blocked',
-                        '/posts/2022/11/2022-11-11-trade-ins',
-                        '/posts/2022/11/2022-11-09-silence',
-                        '/posts/2022/11/2022-11-08-shutting-down-my-repo',
-                        '/posts/2022/11/2022-11-07-fr',
-                        '/posts/2022/11/2022-11-07-exciting-things',
-                        '/posts/2022/11/2022-11-04-heres-to-the-end',
+                        '/posts/2022/11/30/future-plans',
+                        '/posts/2022/11/30/friends',
+                        '/posts/2022/11/29/blocked',
+                        '/posts/2022/11/11/trade-ins',
+                        '/posts/2022/11/09/silence',
+                        '/posts/2022/11/08/shutting-down-my-repo',
+                        '/posts/2022/11/07/fr',
+                        '/posts/2022/11/07/exciting-things',
+                        '/posts/2022/11/04/heres-to-the-end',
                     ],
                 },
                 {
@@ -260,8 +252,8 @@ module.exports = {
                     collapsable: true,
                     sidebarDepth: 1,
                     children: [
-                        '/posts/2022/10/2022-10-31-goodbye-old-friend',
-                        '/posts/2022/10/2022-10-01-updates',    
+                        '/posts/2022/10/31/goodbye-old-friend',
+                        '/posts/2022/10/01/updates',    
                     ],
                 },
                 {
@@ -269,7 +261,7 @@ module.exports = {
                     collapsable: true,
                     sidebarDepth: 1,
                     children: [
-                        '/posts/2022/09/2022-09-06-school',
+                        '/posts/2022/09/06/school',
                     ],
                 },
                 {
@@ -277,9 +269,9 @@ module.exports = {
                     collapsable: true,
                     sidebarDepth: 1,
                     children: [
-                        '/posts/2022/08/2022-08-16-goodbye-jailbreakers',
-                        '/posts/2022/08/2022-08-14-patching-intel-macs-now-live',
-                        '/posts/2022/08/2022-08-12-08-13-22',
+                        '/posts/2022/08/16/goodbye-jailbreakers',
+                        '/posts/2022/08/14/patching-intel-macs-now-live',
+                        '/posts/2022/08/12/08-13-22',
                     ],
                 },
                 {
@@ -287,7 +279,7 @@ module.exports = {
                     collapsable: true,
                     sidebarDepth: 1,
                     children: [
-                        '/posts/2022/07/2022-07-31-making-my-debut',
+                        '/posts/2022/07/31/making-my-debut',
                     ],
                 },
                 

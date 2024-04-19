@@ -10,7 +10,7 @@ categories:
 
 This post is actually about PojavLauncher, the Minecraft: Java Edition launcher I work on for iOS and Android. I'm an iOS girl, so I only work on the iOS port, but I still have exciting things to share.
 
-![](../../../images/2022/11/11-30-pojavlauncher-sculk-catalyst-update.png)
+![](../../../../images/2022/11/11-30-pojavlauncher-sculk-catalyst-update.png)
 
 So, to start off: PojavLauncher 2.1 is releasing! It's been a while, but now we know it's hitting the shelves on **December 10th, 2022!** We also worked with the AltStore and SideStore people to make it a trusted source - so you can grab it ASAP and download it the easy way on day one.
 

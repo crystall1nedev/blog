@@ -12,7 +12,7 @@ It's currently early in the morning for me, and I was working on a few internal 
 
 That's right - with her help, I'm taking this website a whole new direction with more focus on my work, my lore, and my content. I'm using a layout pretty much made by apple.com, with many tweaks to offer a comfortable experience for what I wanted out of it.
 
-![The new home for everything crystall1nedev.](../../../images/2024/02/02-09-new-site.png)
+![The new home for everything crystall1nedev.](../../../../images/2024/02/02-09-new-site.png)
 
 This process of creating a new website is not a simply task done in a few days. We've been working on this for a few weeks now, and still have much work left to be done. Alongside this one, I need to architect two new websites...
 

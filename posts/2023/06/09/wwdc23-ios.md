@@ -20,11 +20,11 @@ My current devices are an iPhone 14 Pro Max for iOS 17, and an iPad Pro (11-inch
 
 Building off of the Lock Screen customization options that Apple introduced in iOS 16, Apple's added some more widgets and more control - including a font weight adjuster for the clock. The iOS 17 wallpaper is very pretty, as well as the Kaleidoscope wallpapers now included. There's really not much to say about the lock screen beyond this, though - it's basically exactly the same as last year.
 
-![](../../../images/2023/06/06-09-wwdc23-ios17-1.png)
+![](../../../../images/2023/06/06-09-wwdc23-ios17-1.png)
 
 Although, iOS 17 does change one thing about the lock screen: StandBy. This new feature is like an evolved version of the Apple Watch's Nightstand mode, and works on any device that runs iOS 17. Always-On Display mode requires a device with the advanced display controller though, meaning only the iPhone 14 Pro and Pro Max (as of this writing, at least). Honestly, it's really nice to have a big screen like this presenting information at a glance. AOD was pretty cool - this is another level.
 
-![](../../../images/2023/06/06-09-wwdc23-ios17-2.png)
+![](../../../../images/2023/06/06-09-wwdc23-ios17-2.png)
 
 ## Home Screen and General UX
 
@@ -32,7 +32,7 @@ While the Home Screen itself didn't change much, there are a few notable things,
 
 We also see two other areas that got some major changes - Spotlight and the keyboard. For the keyboard, we were expecting a new experience with Apple's new transformer-based autocorrection and predictive text. I can happily say that I have had both enabled for the past few days of running iOS 17, and I haven't yet thrown my iPhone at a wall - this time around, it's actually learning from what I'm typing! The text caret also changes color based on the app you are using, and has a subtle difference in its animation.
 
-![](../../../images/2023/06/06-09-wwdc23-ios17-3.png)
+![](../../../../images/2023/06/06-09-wwdc23-ios17-3.png)
 
 You may have also noticed a change to Spotlight in the above pictures - each result is now bigger, making them easier to tap, and they show richer content in some cases as well. I've also found that typing sentences in question-like formats gives you results to it - maybe this was just a thing I didn't notice in iOS 16, though. What wasn't in 16, however, is the satisfying new fade-and-zoom-in transition when opening apps from Spotlight, replacing the jarring slide-in of the past. Nice one, Apple!
 
@@ -40,7 +40,7 @@ You may have also noticed a change to Spotlight in the above pictures - each res
 
 Safari's updates aren't too big, but still note-worthy.
 
-![](../../../images/2023/06/06-09-wwdc23-ios17-4.png)
+![](../../../../images/2023/06/06-09-wwdc23-ios17-4.png)
 
 Private Browsing mode is more private now that you can set a lock on those tabs, although if I'm being honest that's probably going to be used by people to lock their porn stashes nowadays. That's just how Porn mode - I mean Private Browsing - be nowadays. The addition of separate Safari profiles is also genuinely useful in my opinion, being able to separate my different sections of life from each other and not being on the wrong accounts when I do things! Like come on, I can't be the only one who's created a Google Doc on the wrong account.
 
@@ -52,7 +52,7 @@ One of the big headlining features of iOS 17 was the new Contact Poster feature.
 
 ...uh, right now it's completely broken.
 
-![](../../../images/2023/06/06-09-wwdc23-ios17-5.png)
+![](../../../../images/2023/06/06-09-wwdc23-ios17-5.png)
 
 Yeah, I tried setting it up with Stella and it just displayed a background with the main color of my profile picture. We tried both ends and it just stuck like that. Beta bugs,I guess - it does look pretty nice in the editor, just wish it worked outside of that.
 
@@ -66,7 +66,7 @@ Apple modified AirDrop as well - not just with NearDrop, though. It seems to be 
 
 There's not really much else that I have noticed from iOS 17, or I'm just not looking hard enough, to be honest. I'll probably revise this later so come back for updates in the future - I'll mark it if I do make an addition.
 
-![](../../../images/2023/06/06-09-wwdc23-ios17-6.png)
+![](../../../../images/2023/06/06-09-wwdc23-ios17-6.png)
 
 I would like to comment on the device support though, because this is the first release of iOS to be arm64e-only. When I learned that the iPhone 8, 8 Plus, and X were officially dropped from support, I wasn't surprised but I was still a little bit on the sad side. It feels like yesterday that the X was introduced to the world and we all craved the advanced technologies inside of it, as well as made fun of the notch.
 

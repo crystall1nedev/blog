@@ -15,11 +15,11 @@ Next up, we've got **macOS Sonoma**.
 
 Apple made some big changes to the Lock Screen in macOS Sonoma:
 
-![](../../../images/2023/06/06-09-wwdc23-macos-1.png)
+![](../../../../images/2023/06/06-09-wwdc23-macos-1.png)
 
 As you can see, the clock is big like iOS and iPadOS (although you can't customize it.. yet at least), and the accounts to choose from have been moved to the bottom of the screen. It's a nce way to be able to look at your wallpapers - especially the brand new movie-like wallpapers/screensavers Apple added in this update as well:
 
-![](../../../images/2023/06/06-09-wwdc23-macos-2.png)
+![](../../../../images/2023/06/06-09-wwdc23-macos-2.png)
 
 There are some bugs and gripes with the lock screen though:
 
@@ -31,13 +31,13 @@ There are some bugs and gripes with the lock screen though:
 
 One of the main features in Sonoma is widgets - and it's amazing to have widgets on the Desktop now.
 
-![](../../../images/2023/06/06-09-wwdc23-macos-3.png)
+![](../../../../images/2023/06/06-09-wwdc23-macos-3.png)
 
 As you can see, I have a lot of widgets, and they fade to monochrome when I open a window. It's nice to be able to glance at information from time to time - and having a new macOS-native batteries widget is definitely a pro - but be aware of where you place them. Pressing them directly, even when not focused, will open the app they are assigned to or interact with them. It's annoying when you accidentally miss the Stage Manager windows (which have improved animations too) and open some random app you didn't mean to, but that's a me problem here.
 
 I've also noticed changes to notifications - they slide in and slow as they reach their end destination, and some pop into view slowly, like the AirPods switching (which is WAY more reliable in iOS/iPadOS 17 and macOS Sonoma!)
 
-![](../../../images/2023/06/06-09-wwdc23-macos-4.png)
+![](../../../../images/2023/06/06-09-wwdc23-macos-4.png)
 
 Spotlight also got some changes here too - as well as the text caret adapting to your accent color in some apps. The changes are similar to iOS in this way, though.
 
@@ -45,17 +45,17 @@ Spotlight also got some changes here too - as well as the text caret adapting to
 
 Safari gets the same features as iOS - the extra profiles and better protected Private browsing mode. We also see the addition of a new Feature Flags menu to control experimental features, now moved from the Develop tab in the menu bar:
 
-![](../../../images/2023/06/06-09-wwdc23-macos-5.png)
+![](../../../../images/2023/06/06-09-wwdc23-macos-5.png)
 
 It also gains bold text in the search bar when you're typing, a really nice touch to remember where you are in your thought.
 
-![](../../../images/2023/06/06-09-wwdc23-macos-6.png)
+![](../../../../images/2023/06/06-09-wwdc23-macos-6.png)
 
 ## Gaming on Mac
 
 I've been pretty short with the other sections because I'm really excited to share my favorite part of Sonoma: the Game Porting Toolkit that Apple introduced to help game developers test their existing Windows games on Apple Silicon Macs.
 
-![](../../../images/2023/06/06-09-wwdc23-macos-7.png)
+![](../../../../images/2023/06/06-09-wwdc23-macos-7.png)
 
 The Game Porting Toolkit consists of a custom Crossover 22.1.0-based copy of Wine 7.7, with a custom graphics stack that converts DirectX 9, 10, 11, and even 12 _directly_ to Metal 3. Even though this custom version of Wine runs in Rosetta, it seems that it does not work on Intel-based Macs. Not sure why, but it is probably Apple doing a funny to ensure that the Mac is capable of using the Metal 3 API and also trying to sell more Apple Silicon machines.
 
@@ -76,9 +76,9 @@ From then on, I installed Steam (and had to continuously restart it in order to 
 
 Now, back when Crossover 22.0 was the main version, Stray did not work properly, as it needed mesh shaders in order to work. Fast forward to now, Stray running in DX11 mode with D3DMetal.framework was _somewhat_ playable - 20FPS with major stuttering. As a test of the D3DMetal capabilities, I flipped to DX12 mode - and what I found was astonishing.
 
-![](../../../images/2023/06/06-09-wwdc23-macos-8.png)
+![](../../../../images/2023/06/06-09-wwdc23-macos-8.png)
 
-![](../../../images/2023/06/06-09-wwdc23-macos-9.png)
+![](../../../../images/2023/06/06-09-wwdc23-macos-9.png)
 
 These are screenshots of Stray, running at 2056x1329, and the game runs (gernerally) at around 80 FPS on my M1 Pro with low settings. To think that this game went from not working at all, to running this well through Rosetta and Dx12->Metal translation, and a Mac native port is also on the way gets you thinking, doesn't it?
 
@@ -94,7 +94,7 @@ And I'm sure that the common "Gaming on a Mac is a joke" trope will be falling a
 
 Again, like my iOS post, I haven't really gotten into anything else because I've mainly been messing around with the Game Porting Toolkit and also have other things to do. I will again make note of the compatibility list that Sonoma brings with it:
 
-![](../../../images/2023/06/06-09-wwdc23-macos-10.png)
+![](../../../../images/2023/06/06-09-wwdc23-macos-10.png)
 
 And, oh my goodness. It feels so good to know that I was right about my macOS 14 support theory a [few weeks ago](https://crystall1ne.dev/2023/02/12/macos-support-theory/). I'm not really sad about any of the devices that were dropped, other than the 2017 12" MacBook being removed and all of the MacBook line being dead now. It also means that Sonoma created more problems for legacy macs and Hackintoshes - as of writing, all Broadcom wifi that's able to be socketed no longer works, and 3802 Legacy Metal GPUs aren't even able to boot the operating system.
 

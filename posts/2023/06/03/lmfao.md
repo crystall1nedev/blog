@@ -9,4 +9,4 @@ categories:
 
 Enjoy this funny video I took at 4 in the morning while playing Fuck Putin:
 
-![](../../../images/2023/06/06-03-fuck-putin.mp4)
+![](../../../../images/2023/06/06-03-fuck-putin.mp4)

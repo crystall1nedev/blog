@@ -32,7 +32,7 @@ Using these two bits of information and an already-activated copy of MediaMate, 
 
 Well...
 
-![](../../../images/2023/04/04-27-license-keys-1.png)
+![](../../../../images/2023/04/04-27-license-keys-1.png)
 
 See, this seems normal. 2/5 devices were activated with the key, and there are two devices. Except remember - this is a key from my friend. He's already activated a device using this same key.
 
@@ -58,11 +58,11 @@ I tested this too. I changed from the actual value of a real key - the one my fr
 
 As with any manually created/edited keychain item, macOS did prompt to allow MediaMate to use the value stored in the keychain.
 
-![](../../../images/2023/04/04-27-license-keys-2.png)
+![](../../../../images/2023/04/04-27-license-keys-2.png)
 
 Entering my password, I continued quickly to find this:
 
-![](../../../images/2023/04/04-27-license-keys-3.png)
+![](../../../../images/2023/04/04-27-license-keys-3.png)
 
 The entire License section just broke. You can see that it even shrank the heading of Feedback because the text view, Remove Device, and license key information just disappeared from the application.
 
