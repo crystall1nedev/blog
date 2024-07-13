@@ -68,13 +68,21 @@ module.exports = {
             sidebarDepth: 1,
             children: [
                 /**{
-                    title: 'April 2024',
+                    title: 'August 2024',
                     collapsable: false,
                     sidebarDepth: 1,
                     children: [
-                        '/posts/2024/04/xx',
+                        '/posts/2024/08/xx',
                     ],
                 },*/
+                {
+                    title: 'July 2024',
+                    collapsable: false,
+                    sidebarDepth: 1,
+                    children: [
+                        '/posts/2024/07/13/about-the-apple-thing',
+                    ],
+                },
                 {
                     title: 'March 2024',
                     collapsable: false,
