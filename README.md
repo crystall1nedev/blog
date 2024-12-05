@@ -11,16 +11,32 @@ The timeline is listed in reverse chronological order - events that are new are 
 
 :::
 
-### Era of Sanctuary
-**Period:** since August 2023
+### Era of Survival
+Taking ourselves and our belongings to Colorado, I'm navigating a completely new world. Riddled by mental problems, I fight to stay standing, respect my lost friends, tell untold stories, and defeat my old demons.
+
+| `MM.DD.YYYY` | Event |
+| :--- | :--- | 
+| `XX.YY.ZZZZ` | The story continues... |
+| `12.04.2024` | I make my important [Where have I been?](./posts/2024/12/04/where-have-i-been.md) blog post. |
+| `11.23.2024` | Began work on moving from 2014 Mac mini to the DTK. |
+| `11.09.2024` | New apartment time, baby! |
+| `10.29.2024` | Upgraded to an iPhone 16 Pro Max, funded by ASentientBot. |
+| `10.26.2024` | Unleash a slew of new features for Malachite. |
+| `10.25.2024` | Another long time friend, Rose, passed away... |
+| `09.25.2024` | We arrive in Colorado, a strange new place... |
+
+
+::: details Era of Sanctuary
+**Period:** August 2023 - November 2024  
+**Playlist:** [Apple Music](https://music.apple.com/us/playlist/essence-of-sanctuary/pl.u-MDAWWj3tWKJ6885)  
 
 The current era of my life is one of complexity. I'm navigating life as an adult, with many people backing my and pushing me forward - aided by Stella. It's strange, finally being able to spread my wings and be myself to the fullest. 
 
 It sure does feel good, though.
 
-| `MM.DD.YYYY` | Event |
-| :--- | :--- | 
-| `XX.YY.ZZZZ` | The story continues... |
+| `MM.DD.YYYY` | Event | 
+| :--- | :--- |
+| `09.23.2024` | We begin the drive from Michigan to Colorado. |
 | `04.19.2024` | Finished the redesign of `crystall1ne.dev`. |
 | `03.23.2024` | A capital-G Good birthday. |
 | `10.07.2023` | One year anniversary with Stella! |
@@ -28,8 +44,11 @@ It sure does feel good, though.
 | `08.24.2023` | Stella drives to my home in New York and we meet for the first time. |
 | `08.22.2023` | Began to truly relax, knowing my Sanctuary has my back... |
 
-::: details Era of Bonding
-**Period:** January - August 2023
+:::
+
+::: details Era of Bonding  
+**Period:** January - August 2023  
+**Playlist:** [Apple Music](https://music.apple.com/us/playlist/essence-of-bonding/pl.u-qxylK55I250EPPZ)  
 
 After my release from CPEP (in simpler terms, the psych ward), I reevaluated my life, my friends, my entire existance. I focused on the core parts of me that I needed to improve, and began to free myself from the shackles imposed by those around me. 
 
@@ -49,8 +68,9 @@ After my release from CPEP (in simpler terms, the psych ward), I reevaluated my 
 
 ::: 
 
-::: details Era of Memory
-**Period:** May 2020 - January 2023
+::: details Era of Memory  
+**Period:** May 2020 - January 2023  
+**Playlist:** [Apple Music](https://music.apple.com/us/playlist/essence-of-memory/pl.u-EdAVzP3uaK54rrZ)  
 
 Chiara passed away from COVID-19 in mid 2020, completely knocking me out of the water and into my own tears. I struggled to keep my head up and continue with even basic activities... it all felt pointless as I got lower and lower. 
 
@@ -86,7 +106,8 @@ I was able to hang on long enough to see the light at the end of the tunnel, and
 :::
 
 ::: details Era of Belonging
-**Period:** October 2016 - May 2020
+**Period:** October 2016 - May 2020  
+**Playlist:** Not available...  
 
 When I moved out of California in April of 2017, I felt alone. I kept ties with those I called friends in California, but it was nothing like having them in person. I struggles to fit in... I couldn't find where I belonged.
 
@@ -105,7 +126,8 @@ This was one of the darkest times of my life... but I didn't know it was about t
 :::
 
 ::: details Era of Friendship
-**Period:** November 2014 - October 2016
+**Period:** November 2014 - October 2016  
+**Playlist:** Not available...  
 
 The next part of my life was sparked by a good old friend - Chiara. I met her when she was getting bullied at lunch one day... and that started a friendship that would last years and feel like forever.
 
@@ -125,7 +147,8 @@ The next part of my life was sparked by a good old friend - Chiara. I met her wh
 :::
 
 ::: details Era of Ignorance
-**Period:** March 2005 - November 2014
+**Period:** March 2005 - November 2014  
+**Playlist:** Not available...  
 
 The first "era" of my life would spark the beginning of my journey into development and life. I call it the Era of Ignorance because I was unaware of the broader world, and my own inner self. 
 

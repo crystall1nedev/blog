@@ -76,6 +76,14 @@ module.exports = {
                     ],
                 },*/
                 {
+                    title: 'December 2024',
+                    collapsable: false,
+                    sidebarDepth: 1,
+                    children: [
+                        '/posts/2024/12/04/where-have-i-been',
+                    ],
+                },
+                {
                     title: 'July 2024',
                     collapsable: false,
                     sidebarDepth: 1,
