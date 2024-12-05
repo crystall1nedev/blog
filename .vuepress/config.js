@@ -301,7 +301,7 @@ module.exports = {
         '@vuepress/back-to-top',
         'vuepress-plugin-smooth-scroll',
         'vuepress-plugin-fulltext-search',
-		['flexsearch'],
+	['flexsearch'],
         ['@vuepress/medium-zoom',
             {
                 selector: ".theme-succinct-content :not(a) > img",
