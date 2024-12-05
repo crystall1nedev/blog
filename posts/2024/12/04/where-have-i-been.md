@@ -43,7 +43,7 @@ My personal desktop PC was also giving me issues, so I decided to throw its RAM 
 
 ## Vtubing and the future
 
-I... still want to get into vtubing. Just the other day, I was tweaking my model's features. The only reason I haven't done much for it is because of self-confidence. Before Stella came to pick me up, I would make sure that I was always alone when speaking the scripts to my videos, or doing any of my streams. As much as I love and trust Stella, I still have self-consciousness with my voice, and it has actually gotten worse.
+I... still want to get into vtubing. Just the other day, I was tweaking my model's features. The only reason I haven't done much for it is because of self-confidence. Before Stella came to pick me up, I would make sure that I was always alone when speaking the scripts to my videos, or doing any of my streams. As much as I love and trust Stella, I still have self-consciousness with my voice, and it has actually gotten worse (not because of her, but because of my own expectations.)
 
 To the point where I don't want to speak in my videos or my streams at all.
 
