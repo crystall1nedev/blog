@@ -137,7 +137,7 @@ Oh, and **we'll also make sure to get the right parts** to give it a proper case
 
 ## Final thoughts
 
-Having a DTK in 2024 is a very interesting experience, and it's been a real test of my macOS hacking knowledge - but I have learned *quite* a bit from it, and plan to continue doing so. I also compiled my own JDK for it (to solve some Minecraft server crashes), and will probably be adding a new server to `mc.thatstel.la` later on for fun ;)
+Having a DTK in 2024 is a very interesting experience, and it's been a bit of a test of my macOS hacking knowledge - but I have learned *quite* a bit from it, and plan to continue doing so. I also compiled my own JDK for it (to solve some Minecraft server crashes), and will probably be adding a new server to `mc.thatstel.la` later on for fun ;)
 
 Happy hacking,  
 \- Eva
