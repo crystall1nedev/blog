@@ -104,7 +104,7 @@ Aside from the above issues (and many others I haven't talked about from the PDF
 
 Before I brushed off the DTK after our move, I was using a 2014 Mac mini to do the server tasks I needed out of macOS - not to mention, it was a birthday gift from a kind soul in OCLP. As a bit of a test to see how well the DTK would do in its place, I spent a few weeks moving the 2014's tasks into the DTK. I have been *almost* completely successful with that job:
 
-![A list from my Discord server, showing the services I was able to move to the DTK](../../../../images/2024/12/12-08-dtk-2.png)
+![A list from my Discord server, showing the services I was able to move to the DTK](../../../../images/2024/12/12-08-dtk-4.png)
 
 The only things that truly remain are my GitHub Actions setup, and possibly recompiling CPython. Other than that, it performs well, efficiently, and even without a fan!
 
@@ -120,7 +120,7 @@ The DTK is an interesting specimen, and it's also the first Mac with Apple silic
 - Build `21A5284e` has the kexts for `T8027`, but no kernel for `T8027` or any of the firmware for `J273aAP`
   - Build `21A5268h` might not have the kernel as well
 - Build `22A5266r` does not have some required kexts, kernel, or any of the firmware
-  - An assumption as was probably removed earlier (I just haven't confirmed when)
+  - An assumption as was probably removed earlier (I just haven't confirmed when - I'll update this post when I find out!)
 
 The possibility of running a newer version of macOS is still up in the air, and needs more digging to be confirmed one way or another (however, based on past trends, it seems unlikely at the moment.)
 
