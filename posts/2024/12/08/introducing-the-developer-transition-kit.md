@@ -98,11 +98,11 @@ This is partly why the [first DTK Geekbench 5 scores](https://www.notebookcheck.
 
 :::
 
-Aside from the above issues (and many others I haven't talked about from the PDF), there are new issues that come from using `T8027` in an age where `T8103` is the oldest officially supported device capable of running macOS: ARM ISA differences. There are many projects that will crash on the DTK because they were compiled with instructions that `T8027` doesn't support. Needless to say, I'm keeping a macOS Big Sur VM around on my server to deal with these issues, which included cross-compiling `rust`.
+Aside from the above issues (and many others I haven't talked about from the PDF), there are new issues that come from using `T8027` in an age where `T8103` is the oldest officially supported device capable of running macOS: **ARM ISA differences**. There are **many projects that will crash on the DTK** because they were compiled with instructions that `T8027` doesn't support. Needless to say, I'm **keeping a macOS Big Sur VM around on my server** to deal with these issues, which included cross-compiling `rust`.
 
 ## The current status of our DTK
 
-Before I brushed off the DTK after our move, I was using a 2014 Mac mini to do the server tasks I needed out of macOS - not to mention, it was a birthday gift from a kind soul in OCLP. As a bit of a test to see how well the DTK would do in its place, I spent a few weeks moving the 2014's tasks into the DTK. I have been *almost* completely successful with that job:
+Before I brushed off the DTK after our move, I was using a 2014 Mac mini to do the server tasks I needed out of macOS - not to mention, it was a birthday gift from a kind soul in OCLP. As a bit of a test to see how well the DTK would do in its place, I **spent a few weeks moving the 2014's tasks into the DTK**. I have been *almost* completely successful with that job:
 
 ![A list from my Discord server, showing the services I was able to move to the DTK](../../../../images/2024/12/12-08-dtk-4.png)
 
@@ -112,28 +112,28 @@ The only things that truly remain are my GitHub Actions setup, and possibly reco
 
 The DTK is an interesting specimen, and it's also the first Mac with Apple silicon to be dropped from support. With aging hardware on an aging instruction set, with aging software that is starting to lose app support (and WebKit has already broken,) we have been exploring the possiblity of running newer macOS releases on the DTK. Currently, I have been able to gather the following:
 
-- Build `20E5186d` has the kernel, kexts, and firmware for `T8027` and `J273aAP`
+- **Build `20E5186d` has the kernel, kexts, and firmware for `T8027` and `J273aAP`**
   - Build `20E5172i` firmware has a bug that [breaks both USB-A ports](<https://twitter.com/classicii_mrmac/status/1358147658276352001>)
   - Build `20E5186d` firmware possibly has a bug that [breaks USB-C display output](<https://forums.developer.apple.com/forums/thread/673922>)
   - Build `20E5196f` and later release notes say that [DTK support is unavailable](https://developer.apple.com/documentation/macos-release-notes/macos-big-sur-11_3-release-notes#Deprecations)
-- Build `20E5196f` has the kernel and kexts intact for `T8027`, but none of the firmware for `J273aAP`
-- Build `21A5284e` has the kexts for `T8027`, but no kernel for `T8027` or any of the firmware for `J273aAP`
+- **Build `20E5196f` has the kernel and kexts intact for `T8027`, but none of the firmware for `J273aAP`**
+- **Build `21A5284e` has the kexts for `T8027`, but no kernel for `T8027` or any of the firmware for `J273aAP`**
   - Build `21A5268h` might not have the kernel as well
-- Build `22A5266r` does not have some required kexts, kernel, or any of the firmware
+- **Build `22A5266r` does not have some required kexts, kernel, or any of the firmware**
   - An assumption as was probably removed earlier (I just haven't confirmed when - I'll update this post when I find out!)
 
 The possibility of running a newer version of macOS is still up in the air, and needs more digging to be confirmed one way or another (however, based on past trends, it seems unlikely at the moment.)
 
-Recently, iOS jailbreak developer and fellow reverse engineer [Nick Chan](https://procursus.social/@riscv64) has been working on porting Linux to checkm8 devices. He's been doing a really great job, and has also asked for our help in testing his patches on our DTK. You can see his work here:
+Recently, **iOS jailbreak developer and fellow reverse engineer [Nick Chan](https://procursus.social/@riscv64)** has been working on porting Linux to checkm8 devices. He's been doing a really great job, and has also **asked for our help in testing his patches on our DTK**. You can see his work here:
 
 - [https://github.com/asdfugil/linux-apple](https://github.com/asdfugil/linux-apple)
 - [https://github.com/asdfugil/m1n1-idevice](https://github.com/asdfugil/m1n1-idevice)
 
 We're excited to help and see how this ends up.
 
-There's of course the last remaining pieces to put together in order for the 2014 Mac mini's transition to be complete - and I'll be tackling those for a while. In the meantime and after those are fixed, the DTK will be serving some of its life as a (somewhat) stable-enough server to host those macOS things that I needed.
+There's of course the last remaining pieces to put together in order for the 2014 Mac mini's transition to be complete - and **I'll be tackling those for a while**. In the meantime and after those are fixed, the **DTK will be serving some of its life as a (somewhat) stable-enough server** to host those macOS things that I needed.
 
-Oh, and we'll also make sure to get the right parts to give it a proper case, PSU, IO plate, etc.
+Oh, and **we'll also make sure to get the right parts** to give it a proper case, PSU, IO plate, etc.
 
 ## Final thoughts
 
