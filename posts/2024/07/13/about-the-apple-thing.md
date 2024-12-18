@@ -1,6 +1,6 @@
 ---
 title: "About the Apple thing"
-date: "2024-04-13"
+date: "2024-07-13"
 categories: 
   - "ios"
   - "development"

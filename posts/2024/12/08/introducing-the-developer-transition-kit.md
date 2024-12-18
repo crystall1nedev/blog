@@ -1,6 +1,6 @@
 ---
 title: "Introducing the Developer Transition Kit"
-date: "2024-04-13"
+date: "2024-12-08"
 categories: 
   - "development"
   - "macos"
@@ -12,7 +12,7 @@ categories:
 
 In my [last post](../04/where-have-i-been.md#dtk-who), I talked about how dosdude1 shipped out one of the few Apple silicon DTKs that he was able to repair to Stella and I. This blog post is mainly talking about the hardware itself, some of its quirks, what we've been doing with it, and where we are taking it in the future!
 
-::: warning Update on Dec. 17th, 2024
+## Update on Dec. 17th, 2024
 
 Well, this is a surprise. My first update to this blog post is also probably going to be the last. 
 
@@ -25,8 +25,6 @@ After the restore was completed on our DTK, I entered the Apple ID email and pas
 It is pretty much confirmed at this point - after discussing it with dosdude1, someone in contact with the bilibili user, and people in the Hack Different Discord server - that this issue is caused by Apple's activation servers refusing requests from ADP3,2. Due to the nature of Apple silicon security and its boot process, this means that our DTK is (likely permanently) out of commission a lot earlier than we were expecting.
 
 This may be the end of the line for using the DTK as a computer, but I haven't completely finished my work with it. In a future blog post, and with a lot of help from others, I will be delving deep into Apple's activation mechanism and hopefully pinpoint the needle that struck our DTK's heart.
-
-:::
 
 ## `ADP3,2`
 

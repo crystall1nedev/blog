@@ -80,6 +80,7 @@ module.exports = {
                     collapsable: false,
                     sidebarDepth: 1,
                     children: [
+                        '/posts/2024/12/18/activating-after-death',
                         '/posts/2024/12/08/introducing-the-developer-transition-kit',
                         '/posts/2024/12/04/where-have-i-been',
                     ],

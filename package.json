@@ -12,8 +12,8 @@
         "url": "git+https://github.com/crystall1nedev/blog.git"
     },
     "scripts": {
-        "dev": "vuepress dev",
-        "build": "vuepress build",
+        "dev": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress dev",
+        "build": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress build",
         "copy-to-server": "rsync -aP ./.vuepress/dist/ ./.vuepress/server/"
     },
     "license": "CC-BY-NC-SA-4.0",
