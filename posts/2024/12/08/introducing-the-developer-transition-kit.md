@@ -12,6 +12,22 @@ categories:
 
 In my [last post](../04/where-have-i-been.md#dtk-who), I talked about how dosdude1 shipped out one of the few Apple silicon DTKs that he was able to repair to Stella and I. This blog post is mainly talking about the hardware itself, some of its quirks, what we've been doing with it, and where we are taking it in the future!
 
+::: warning Update on Dec. 17th, 2024
+
+Well, this is a surprise. My first update to this blog post is also probably going to be the last. 
+
+Yesterday, I made the decision to restore the DTK to a fresh copy of 11.2.3 - moving the important stuff I wanted to keep track of to my Samsung T7, booting it into DFU mode, and doing a simple restore with `idevicerestore`. 
+
+As early as December 5th, there was a report on bilibili of a DTK being unable to activate, with the same symptoms of one with bad `SysCfg` entries for serial number and MAC addresses. Due to the nature of this, dosdude1 was assisting in hopefully fixing the bad entries. However, this was not the case. 
+
+After the restore was completed on our DTK, I entered the Apple ID email and password that the unit was locked to, and rebooted it as there was no error - "Your Mac is activated." This began a loop of booting the DTK into recoveryOS, connecting to the internet, and having it say it was activated... even though it is not.
+
+It is pretty much confirmed at this point - after discussing it with dosdude1, someone in contact with the bilibili user, and people in the Hack Different Discord server - that this issue is caused by Apple's activation servers refusing requests from ADP3,2. Due to the nature of Apple silicon security and its boot process, this means that our DTK is (likely permanently) out of commission a lot earlier than we were expecting.
+
+This may be the end of the line for using the DTK as a computer, but I haven't completely finished my work with it. In a future blog post, and with a lot of help from others, I will be delving deep into Apple's activation mechanism and hopefully pinpoint the needle that struck our DTK's heart.
+
+:::
+
 ## `ADP3,2`
 
 The DTK's story starts with the SoC: `T8027`. The public-facing name for it is **Apple A12Z Bionic**, which is just a renamed A12X that has all of its GPU cores enabled. Other than some board strapping and configuration differences, as well as the **16GB of LPDDR4X** over the 6GB found in the iPads, it's the **same SoC with all of the same features** - ANE, AVE and AVD, Vortex/Tempest, M12, so on and so forth.
