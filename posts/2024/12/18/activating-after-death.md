@@ -10,6 +10,17 @@ categories:
 
 So... we found the issue that resulted in the [death of our DTK.](../08/introducing-the-developer-transition-kit.md#update-on-dec-17th-2024) I examined the logs I had access to, and recreate them on my own machines. I brought out what I knew about how activation works in Macs with Apple silicon, and applied it to help create a definitive answer on what the problem is. And now... my eyes are more open to what [Stella was complaining about before.](../../07/13/about-the-apple-thing.md)
 
+::: warning Update on Dec. 21th, 2024
+
+Recently, there has been speculation that this is just a side effect of Apple updating values server-side instead of intentionally trying to break DTKs. Regardless of is these turn out to be ture, two things are always going to be fact:
+
+- Apple has done this intentionally, whether they chose to update the servers to break DTKs on purpose, or chose not to fix DTKs via ignorance.
+- **There is nothing we can currently do to fix the problem**, other than monitor and hope that the servers just magically begin working again for the DTKs.
+
+I'm not holding my breath, and have repurposed my old J316sAP (M1 Pro 16-inch) as the 2014 Mac mini and DTK's replacement. I also wrote a script to send off the DTK's `ucrt` request to Apple, since it should still be valid... in the event that something does change.
+
+::: 
+
 ## The `ucrt` problem
 
 The issue stems from this funny little certificate called a `ucrt`. It helps Macs with Apple silicon sign their LocalPolicy files, which then help set the security standards (and other bits) for booting an operating system. The way a `ucrt` works is explained in the [Apples Platform Security documentation](https://support.apple.com/en-ca/guide/security/sec1f90fbad1/web), but I'll reiterate it here:
@@ -39,7 +50,7 @@ Without a `ucrt`, LocalPolicies cannot be created and activation routines cannot
 
 And so begins the condemning of our - and any other unactivated - DTK to rebooting to the same screen, with the same instructions to connect to the internet, and the same "Your Mac is activated." message... teasing us with success and greeting us with failure.
 
-It's honestly decently hard to admit this is it for our unit, but it would be more hard, **as well as delusional, to ignore that this was an intentional change**: it only affects DTKs, and it has been happening since December 5th.
+It's honestly decently hard to admit this is it for our unit, but it would be more hard, **as well as delusional, to ignore that this was an intentional change**: it only affects DTKs, and it has been happening since December 5th. 
 
 DTKs were never supposed to be used after Apple asked for them back, and having used one, I can understand why. They don't support all of what macOS Big Sur has to offer, the instruction set isn't up to spec, the firmware is barely production, and there were a lot of quirks about the SoC itself (like the three SMC batteries or lack of fan control) that made it inconvenient or just wrong for most.
 
