@@ -80,6 +80,8 @@ module.exports = {
                     collapsable: false,
                     sidebarDepth: 1,
                     children: [
+                        '/posts/2024/12/24/longevity-by-chance',
+                        '/posts/2024/12/22/the-malachite-thing',
                         '/posts/2024/12/22/hello-apple-developer',
                         '/posts/2024/12/18/deactivating-after-life',
                         '/posts/2024/12/18/activating-after-death',

@@ -10,6 +10,13 @@ categories:
 
 For the uninitiated, Malachite is my macro photography app.
 
+::: warning Update on Dec. 24, 2024
+
+I talked with Stella about the first demotivating factor I mention in this post. She reiterated that I have multiple other reasons to be proud of developing Malachite, such as having better functionality than the stock camera app. She also got herself a free iPhone XR from work a few days ago, and that will be used for Malachite testing on her end.
+
+As I said later in the post, I still have a bunch of stuff I'm doing for Malachite. Once the XR is done processing on my developer account (and my "Longevity, by Chance" blog posts are done), I'll be working on it a lot more.
+
+:::
 
 I started the project as an answer to Stella's calls for help when needing a magnifier to work on motherboards more efficiently - implementing features like manual focus and better flashlight control right from the start. The stock camera app took a while to get set up properly for this task, and Malachite was as simple as opening the app and tuning your settings.
 
@@ -49,7 +56,9 @@ Without the account, I have... pretty much no reason to work on the app anymore.
 
 ## No action yet
 
-Nothing in this post is decided, it's more of a rant than anything else since I've been tired of keeping this to myself over the past few months. I also have features I'm still implementing in Malachite as we speak, and have a few commits lined up locally.
+This post is mainly just a rant about some of the (de)motivating things I've been dealing with for the past few months. I don't currently have plans to stop working on it, and I still have a few commits staged locally that I'm working on, including more work on LockedCameraCapture and (better) Camera Control support.
+
+I'll probably feel better about the above later. Need to stop comparing my work to Halide's, figure out a plan for renewing my developer account...
 
 If you want to help me out and can, I just want to ask for some feedback on Malachite. Download the app using the link in its [GitHub](https://github.com/crystall1nedev/Malachite) repository, open it, and send me a request for a new feature, a big fix, or a reimplementation... it would certainly be nice from a developer standpoint.
 
