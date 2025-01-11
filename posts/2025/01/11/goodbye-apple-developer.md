@@ -72,7 +72,7 @@ At least I can still run them without needing to notarize. Regardless of how man
 
 Even after paying the fee, I still need to politely ask Apple for access to certain technologies - even if I just want to run them on my own machine. 
 
-Recently, I wanted to build and sign a kernel extension to use on my MacBook Pro withou tneeding to drop the machine into Permissive Security in order to do it. That kills off FairPlay for iOS apps, Apple Pay, and Activation Lock - all three of which I make extensive use of on my Mac. In order to get the ability to sign a kernel extension, I had to ask Apple.
+Recently, I wanted to build and sign a kernel extension to use on my MacBook Pro without needing to drop the machine into Permissive Security in order to do it. That kills off FairPlay for iOS apps, Apple Pay, and Activation Lock - all three of which I make extensive use of on my Mac. In order to get the ability to sign a kernel extension, I had to ask Apple.
 
 I was denied twice. Not because the kernel extension had DriverKit replacements, or because I was malicious. It was because "we only enable KEXT signing on corporate accounts."
 
