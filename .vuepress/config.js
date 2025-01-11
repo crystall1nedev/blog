@@ -67,6 +67,21 @@ module.exports = {
             collapsable: false,
             sidebarDepth: 1,
             children: [
+                {
+                    title: 'January 2025',
+                    collapsable: false,
+                    sidebarDepth: 1,
+                    children: [
+                        '/posts/2025/01/11/goodbye-apple-developer',
+                    ],
+                },   
+            ]
+        },
+        {
+            title: '2024',
+            collapsable: false,
+            sidebarDepth: 1,
+            children: [
                 /**{
                     title: 'August 2024',
                     collapsable: false,
@@ -125,7 +140,7 @@ module.exports = {
         },
         {
             title: '2023',
-            collapsable: false, 
+            collapsable: true, 
             sidebarDepth: 1,
             children: [
                 {
