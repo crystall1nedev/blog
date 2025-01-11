@@ -106,7 +106,7 @@ It's hard not to see the facts here. **And it's hard to support that, too.**
 
 Putting the facts down helps me think. Rereading this post has just made the decision to not renew my developer account feel even better. I'm listening to my morals and my wife's words about the issue with this overpriced and underpowered program, **built to give you the false sense of owning more of your hardware and like you are contributing to the world's best ecosystem of apps**. The restrictions Apple has put into place squanders real innovation, like Winlator, Suyu, AetherSX2. They prevent users who aren't lucky enough to have $99 a year from being able to use custom entitlements, whereas other platforms enable you to install if you trust yourself.
 
-So... I take back what I said in my previous post about wanting to renew my account. I don't anymore. I'd rather stand with the rest of you, then contribute to the greater machine.
+So... I take back what I said in my previous post about wanting to renew my account. I don't anymore. I'd rather stand with the rest of you than to contribute to the greater machine.
 
 Downgraded,  
 \- Eva
