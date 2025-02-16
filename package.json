@@ -12,9 +12,12 @@
         "url": "git+https://github.com/crystall1nedev/blog.git"
     },
     "scripts": {
-        "dev": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress dev",
-        "build": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress build",
-        "copy-to-server": "rsync -aP ./.vuepress/dist/ ./.vuepress/server/"
+        "dev-unix": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress dev",
+        "dev": "set \"NODE_OPTIONS=--openssl-legacy-provider\" && vuepress dev",
+        "build-unix": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress build",
+        "build": "set \"NODE_OPTIONS=--openssl-legacy-provider\" && vuepress build",
+        "copy-unix": "rsync -aP ./.vuepress/dist/ ./.vuepress/server/",
+        "copy": "robocopy /mir Z:\\Private\\blog_source\\.vuepress\\dist\\ W:\\nginx\\www\\crystall1ne.dev\\blog"
     },
     "license": "CC-BY-NC-SA-4.0",
     "devDependencies": {

@@ -1,5 +1,6 @@
 node_modules/
 .vuepress/dist
+.vuepress/server
 package-lock.json
 .DS_Store
 .idea

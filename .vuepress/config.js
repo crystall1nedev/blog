@@ -67,6 +67,22 @@ module.exports = {
             collapsable: false,
             sidebarDepth: 1,
             children: [
+                /**{
+                    title: 'March 2025',
+                    collapsable: false,
+                    sidebarDepth: 1,
+                    children: [
+                        '/posts/2025/03/xx',
+                    ],
+                },*/
+                {
+                    title: 'February 2025',
+                    collapsable: false,
+                    sidebarDepth: 1,
+                    children: [
+                        '/posts/2025/02/15/birchway',
+                    ],
+                },
                 {
                     title: 'January 2025',
                     collapsable: false,
@@ -82,14 +98,6 @@ module.exports = {
             collapsable: false,
             sidebarDepth: 1,
             children: [
-                /**{
-                    title: 'August 2024',
-                    collapsable: false,
-                    sidebarDepth: 1,
-                    children: [
-                        '/posts/2024/08/xx',
-                    ],
-                },*/
                 {
                     title: 'December 2024',
                     collapsable: false,
