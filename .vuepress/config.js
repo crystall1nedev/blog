@@ -80,6 +80,7 @@ module.exports = {
                     collapsable: false,
                     sidebarDepth: 1,
                     children: [
+                        '/posts/2025/02/24/jit',
                         '/posts/2025/02/15/birchway',
                     ],
                 },
