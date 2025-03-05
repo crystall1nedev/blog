@@ -72,6 +72,7 @@ module.exports = {
                     collapsable: false,
                     sidebarDepth: 1,
                     children: [
+                        '/posts/2025/03/04/sidestore-llc',
                         '/posts/2025/03/02/the-choices-we-make', 
                     ],
                 },
