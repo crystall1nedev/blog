@@ -17,7 +17,7 @@
         "build-unix": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress build",
         "build": "set \"NODE_OPTIONS=--openssl-legacy-provider\" && vuepress build",
         "copy-unix": "rsync -aP ./.vuepress/dist/ ./.vuepress/server/",
-        "copy": "robocopy /mir Z:\\Private\\blog_source\\.vuepress\\dist\\ W:\\nginx\\www\\crystall1ne.dev\\blog"
+        "copy": "robocopy /mir Z:\\Private\\blog_source\\.vuepress\\dist\\ X:\\nginx\\www\\crystall1ne.dev\\blog"
     },
     "license": "CC-BY-NC-SA-4.0",
     "devDependencies": {
